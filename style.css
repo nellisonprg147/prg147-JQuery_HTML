@@ -1,0 +1,136 @@
+@charset "UTF-8";
+.body {
+
+    background-image: url(images/green_field.jpg);
+    font-family: Tohma, Geneva, sans-serif;
+    font-size: 1em;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    background:aqua;
+    min-height: 600px;
+    border-radius: 5px;
+
+}
+.header{
+    background-color: lightgreen;
+    color:white;
+    text-align: center;
+    text-align-all: center;
+    min-height:50px;
+    margin: 0 auto;
+    font-size: 1.5em;
+    border: solid ;
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-left: 10px;
+}
+h2{
+    text-align: left;
+    font-size: 2em;
+    margin-left: 10px;
+}
+h3{
+    text-align: left;
+    font-size: 1em;
+    margin-left: 10px;
+}
+p{
+    margin-left: 10px;
+}
+
+.title{
+    font-size: 1em;
+}
+.footer {
+    text-align: center;
+
+}
+#buttonOne{
+    display: inline-block;
+    height:20px;
+    width: 70px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 2px;
+}
+#buttonTwo{
+    display: inline-block;
+    height:20px;
+    width: 70px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 2px;
+}
+#buttonThree{
+    display: inline-block;
+    height:20px;
+    width: 70px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 2px;
+}
+.list{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+.listTwo{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+.listThree{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+form{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#left{
+    width: 320px;
+    text-align: left;
+    margin: 10px;
+    background-color: #4bbeff;
+    border-radius: 5px;
+    min-height: 300px;
+    position: absolute;
+    left: 85px;
+
+}
+#center{
+    width: 320px;
+    text-align: left;
+    margin: 10px;
+    background-color: lightgreen;
+    border-radius: 5px;
+    min-height: 300px;
+    position: absolute;
+    left: 415px;
+
+}
+#right{
+    width: 320px;
+    text-align: left;
+    margin: 10px;
+    background-color: #2fb3ff;
+    border-radius: 5px;
+    min-height: 300px;
+    position: absolute;
+    left: 745px;
+
+}
